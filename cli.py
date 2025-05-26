@@ -29,7 +29,7 @@ def main():
             print(f"Magazine '{magazine.name}' created with ID {magazine.id}.")
 
         elif choice == "3":
-            author_id = int(input("Enter author ID: "))
+            author_id = int(input("Epytesnter author ID: "))
             magazine_id = int(input("Enter magazine ID: "))
             title = input("Enter article title: ")
             author = Author.find_by_id(author_id)
